@@ -155,10 +155,10 @@ try({
 })
 
 -- Dwindle: jendela baru selalu muncul di kanan/bawah (lebih bisa ditebak)
+-- Catatan: special_scale_factor telah dihapus karena deprecated di Hyprland 0.57+
 try({
 	dwindle = {
 		force_split = 2,
-		special_scale_factor = 0.95,
 	},
 })
 
